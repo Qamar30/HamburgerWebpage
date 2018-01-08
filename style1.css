@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css?family=Nosifer|Oswald|Lobster|Monoton|Modak|Gloria Hallelujah|Courgette');
+
+
+
+
+body {
+	background: url('https://images.unsplash.com/photo-1503591099259-a96e250e0a67?dpr=1&auto=format&fit=crop&w=568&h=379&q=60&cs=tinysrgb');
+
+	background-size: contain;
+	background-position: top;
+	background-blend-mode: hard-light;
+	background-repeat: repeat;
+	background-color: linear-gradient(to right, #076585, #fff);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.h3 {
+
+	background-color: black;
+	color: whitesmoke;
+}
+
+
+.a1 {
+
+	display: contents;
+
+
+}
+
+.a2 {
+	display: inline-block;
+
+}
+
+.nav-item:hover {
+
+	font-family: 'Monoton', fantasy;
+
+	font-size: 25px;
+
+	background-color: transparent;
+	color: black;
+}
+
+.nav-item > li > a {
+
+
+	color: #fff;
+}
+
+.intro h4 {
+	font-family: 'Oswald', cursive;
+
+	color: whitesmoke;
+	background-color: black;
+
+	text-align: center;
+	font-size: 29px;
+	font-weight: bold;
+
+}
+
+.intro {
+
+	text-align: center;
+	color: whitesmoke;
+	background-color: cadetblue;
+	font-variant-position: super;
+	font-family: 'Courgette', monospace;
+	font-variant-caps: all-small-caps;
+	font-size: 22px;
+
+
+}
+
+
+.jumbotron {
+	color: black;
+	font-family: 'Courgette', sans-serif;
+	font-weight: 300;
+	background: -webkit-gradient(linear, left top, right top, from(#003973), to(#e5e5be));
+	background: linear-gradient(to right, #003973, #e5e5be);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	text-align: center;
+
+
+
+}
+
+.jumbotron h1:hover {
+	color: chocolate;
+
+}
+
+.res h2 {
+
+	text-align: center;
+	font-family: 'Oswald', cursive;
+	font-size: 32;
+	font-weight: 300;
+	color: whitesmoke;
+	font-stretch: extra-expanded;
+	background-color: black;
+
+}
+
+.menu-group {
+
+	text-align-last: center;
+	font-variant-caps: all-small-caps;
+	font-size: 16px;
+	color: black;
+
+
+
+}
+
+
+.card-body {
+
+
+	background: -webkit-gradient(linear, left top, left bottom, from(#A7BFE8), to(#6190E8));
+
+
+	background: linear-gradient(to bottom, #A7BFE8, #6190E8);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: reverse;
+	-ms-flex-direction: column-reverse;
+	flex-direction: column-reverse;
+	-ms-flex-line-pack: center;
+	align-content: center;
+
+
+}
+
+@media only screen and (max-width: 480px) {
+	.card-title font-family: 'Oswals', sans-serif;
+
+	font-size: 29px;
+
+}
+
+.card-body p {
+
+
+	font-family: 'Oswals', sans-serif;
+	color: whitesmoke;
+	font-stretch: expanded;
+
+
+}
+
+.menu-group h4 {
+	font-size: 29px;
+	color: whitesmoke;
+	background-color: black;
+	font-family: 'Oswald', fantasy;
+
+
+
+
+}
+
+input.contact {
+	background: #fff;
+	border: solid 1px #ddd;
+	color: #000;
+	padding: 15px 30px;
+
+	margin-right: 3%;
+	margin-bottom: 30px;
+	outline: none;
+
+}
+
+input.contact.noMarr {
+	margin-right: 0px;
+}
+
+textarea.contact {
+	background: #fff;
+	color: #000;
+	border: solid 1px #ddd;
+	padding: 15px 30px;
+
+	margin-bottom: 40px;
+	outline: none;
+	height: 150px;
+}
+
+.contact.submit {
+	background: #333;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	margin: 0px;
+	border: none !important;
+	border-radius: 3px;
+}
+
+.contact.submit:hover {
+	background: #cc580c;
+}
+
+.done {
+	display: none;
+}
+
+
+textarea.error {
+	background-color: #ffffff;
+	border: 1px solid red !Important;
+	-webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-webkit-transition: border linear 0.2s, -webkit-box-shadow linear 0.2s;
+	transition: border linear 0.2s, -webkit-box-shadow linear 0.2s;
+	transition: border linear 0.2s, box-shadow linear 0.2s;
+	transition: border linear 0.2s, box-shadow linear 0.2s, -webkit-box-shadow linear 0.2s;
+}
+
+
+
+#footer {
+	background: #262626;
+	padding: 50px 0 0 0;
+
+}
+
+#footer h3 {
+	color: #8eb640;
+	font-weight: 400;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+#footer .copyrights {
+	padding: 20px 0;
+	margin-top: 50px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#779936+0,8eb640+50 */
+	background: -webkit-gradient(linear, left top, left bottom, from(#556270), to(#4ECDC4));
+	background: linear-gradient(to bottom, #556270, #4ECDC4);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#footer .social {
+	margin: 20px 0 30px 0;
+}
+
+#footer .social ul li {
+	display: inline-block;
+	margin: 0 20px;
+}
+
+#footer .social i.fa {
+	font-size: 26px;
+	padding: 4px;
+	color: #fff;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#footer .social i.fa:hover {
+	color: #eee;
+}
+
+#footer p {
+	font-size: 15px;
+	color: rgba(255, 255, 255, 0.8)
+}
+
+#footer a {
+	color: #f6f6f6;
+}
+
+#footer a:hover {
+	color: #333;
+}
+
+input.contact {
+	background: #fff;
+	border: solid 1px #ddd;
+	color: #000;
+	padding: 15px 30px;
+
+	margin-right: 3%;
+	margin-bottom: 30px;
+	outline: none;
+}
+
+input.contact.noMarr {
+	margin-right: 0px;
+}
+
+textarea.contact {
+	background: #fff;
+	color: #000;
+	border: solid 1px #ddd;
+	padding: 15px 30px;
+
+	margin-bottom: 40px;
+	outline: none;
+	height: 150px;
+}
+
+.contact.submit {
+	background: #333;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	margin: 0px;
+	border: none !important;
+	border-radius: 3px;
+}
+
+.contact.submit:hover {
+	background: #cc580c;
+}
+
+.done {
+	display: none;
+}
+
+
+textarea.error {
+	background-color: cornflowerblue;
+	border: 1px solid red !Important;
+	-webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-webkit-transition: border linear 0.2s, -webkit-box-shadow linear 0.2s;
+	transition: border linear 0.2s, -webkit-box-shadow linear 0.2s;
+	transition: border linear 0.2s, box-shadow linear 0.2s;
+	transition: border linear 0.2s, box-shadow linear 0.2s, -webkit-box-shadow linear 0.2s;
+
+}
+
+
+
+.mobailapps {
+	background: url('/home/qamar/Downloads/Web development Tools/images/images/alex-jones-1246.jpg') top center no-repeat scroll;
+	background-size: cover;
+	width: 100%;
+	overflow: hidden;
+	position: absolute;
+	text-align: center;
+	background-color: chartreuse;
+}
+
+.main_mobail_apps_content {
+	margin: 80px 0px;
+	color: #fff;
+	overflow: hidden;
+	text-align: center;
+}
+
+.single_monail_apps_text {
+	margin-top: 120px;
+	text-align: center;
+	float: right;
+}
+
+.single_monail_apps_text h4 {
+	font-size: 1.875rem;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.single_monail_apps_text h1 {
+	font-size: 5rem;
+	text-transform: uppercase;
+	color: #fff;
+	line-height: 5rem;
+	text-align: right;
+	float: right;
+}
+
+.single_monail_apps_text h1 span {
+	font-size: 1.800rem;
+	color: #fff;
+	display: block;
+	text-align: right;
+}
+
+.single_monail_apps_text {
+	margin-left: -10px;
+	text-align: right;
+	float: right;
+}
+
+.single_monail_apps_text a {
+	margin-top: 50px;
+	margin-left: 10px;
+	display: inline-block;
+}
+
+.single_monail_apps_text a img {
+	max-width: 90%;
+	-ms-flex-line-pack: distribute;
+	align-content: space-around;
+	text-align: center;
+}
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+
+.col {
+	display: block;
+	float: left;
+	margin: 1% 0 1% 1.6%;
+	background: -webkit-gradient(linear, left top, right top, from(#003973), to(#e5e5be));
+	background: linear-gradient(to right, #003973, #e5e5be);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.col:first-child {
+	margin-left: 0;
+}
+
+/*  GROUPING  */
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+	/* For IE 6/7 */
+}
+
+/*  GRID OF THREE  */
+
+.span_3_of_3 {
+	width: 100%;
+}
+
+.span_2_of_3 {
+	width: 66.13%;
+}
+
+.span_1_of_3 {
+	width: 32.26%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col {
+		margin: 1% 0 1% 0%;
+	}
+	.span_3_of_3,
+	.span_2_of_3,
+	.span_1_of_3 {
+		width: 100%;
+	}
+}
+
+
+}
+
+.blockquote-footer {
+	color: black;
+
+
+}
+
+.test h1 {
+	color: whitesmoke;
+	background-color: black;
+	font-size: 32px;
+	font-variant-caps: all-petite-caps;
+
+
+
+}
