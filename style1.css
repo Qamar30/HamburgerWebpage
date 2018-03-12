@@ -3,8 +3,7 @@ body {
 	background-size: cover;
 	background-position: top center;
 	background-repeat: no-repeat;
-	background-color:black;
-	
+	background-color: black;
 }
 
 .header {
@@ -15,12 +14,12 @@ body {
 	padding: 10% 0;
 	opacity: 0.9;
 	z-index: 1030;
+	text-shadow: 1px 2px 3px blue;
 	font-weight: 400;
 	font-size: 18px;
-	transition:ease-in-out 5s;
+	transition: ease-in-out 5s;
 	color: whitesmoke;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	
 }
 
 .h3 {
@@ -63,22 +62,18 @@ body {
 	padding: 7% 0;
 	opacity: 0.8;
 }
-.reservations h2{
+
+.reservations h2 {
 	font-size: 29px;
 	color: black;
-	
 	font-family: 'Oswald', fantasy;
-	
-
-
 }
+
 .menu-group {
 	font-variant-caps: all-small-caps;
 	font-size: 16px;
 	color: black;
 }
-
-
 
 .card-body {
 	background: -webkit-gradient(linear, left top, left bottom, from(#A7BFE8), to(#6190E8));
@@ -111,16 +106,15 @@ body {
 	font-size: 32px;
 	font-variant-caps: all-petite-caps;
 }
-.Testimonials{
-padding: 3% 0;
-background-color:whitesmoke;
-color: black;
-display:grid;
-grid-template-columns: auto auto;
-grid-gap: 1em;
 
+.Testimonials {
+	padding: 3% 0;
+	background-color: whitesmoke;
+	color: black;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 1em;
 }
-
 
 @media (min-width: 576px) {
 	.footer {
@@ -139,7 +133,7 @@ grid-gap: 1em;
 		color: black;
 	}
 }
-.footer:hover{
 
-color: whitesmoke;
+.footer:hover {
+	color: whitesmoke;
 }
