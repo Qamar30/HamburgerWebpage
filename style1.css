@@ -65,6 +65,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 7%;
+	background:black;
 	color: whitesmoke;
 }
 
@@ -129,6 +130,7 @@ padding: 5% 0;
 	color: black;
 	font-family: 'Oswald', fantasy;
 	text-transform: uppercase;
+	background:black;
 }
 
 .menu-group {
@@ -188,7 +190,7 @@ padding: 5% 0;
  }
 .staff h2{
 	font-size: 29px;
-	color: black;
+	color: white;
 	font-family: 'Oswald', fantasy;
 	text-transform: uppercase;
 	padding-bottom: 2%;
