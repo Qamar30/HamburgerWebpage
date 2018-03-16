@@ -110,9 +110,10 @@ body {
 }
 .info{
 
-color: #eeeeee;
-padding: 5% 0;
 
+padding: 5% 0;
+background-color: black;
+	color: whitesmoke;
 
 }
 
@@ -137,7 +138,8 @@ padding: 5% 0;
 	font-variant-caps: all-small-caps;
 	font-size: 16px;
 	color: black;
-
+	background-color: black;
+	color: whitesmoke;
 }
 
 .menu-group h2 {
@@ -183,10 +185,10 @@ padding: 5% 0;
 .staff{
 
 
-	background: white;
+	background: black;
 	opacity: 0.9;
 	padding: 5%;
-	
+	color:white;
  }
 .staff h2{
 	font-size: 29px;
