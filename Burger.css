@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Nosifer|Oswald|Lobster|Monoton|Modak|Gloria Hallelujah|Courgette');
+body {
+	background-color: whitesmoke;
+}
+
+.header {
+	background-image: url('https://images.unsplash.com/photo-1469234496837-d0101f54be3e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0470412405288dcf3a26cd3a325a82f8&w=1000&q=80');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 15% 0;
+	opacity: 0.9;
+	z-index: 1030;
+	text-shadow: 1px 2px 3px blue;
+	font-weight: 400;
+	font-size: 18px;
+	text-transform: uppercase;
+	transition: ease-in-out 5s;
+	color: whitesmoke;
+	position: relative;
+	margin: auto;
+	height: 100%;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+about {
+	margin: auto;
+}
+
+.Gallery {
+	font-size: 16px;
+	color: whitesmoke;
+	background: black;
+	font-family: 'Oswald', fantasy;
+	text-transform: uppercase;
+}
+
+.img {
+	width: 33%;
+}
+
+.Gallery h2 {
+	font-size: 29px;
+	color: whitesmoke;
+	font-family: 'Oswald', fantasy;
+}
+
+.menu {
+	background-image: url('https://images.unsplash.com/photo-1497644083578-611b798c60f3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1f30d134f8d13f550e1603244363c483&w=1000&q=80');
+	width: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 7%;
+	color: whitesmoke;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.menu h5 {
+	text-transform: uppercase;
+	font-size: 27px;
+}
+
+.menu h5:hover {
+	color: steelblue;
+}
+
+.intro h4 {
+	font-family: 'Oswald', cursive;
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+	font-size: 29px;
+	font-weight: bold;
+}
+
+.intro {
+	text-align: center;
+	color: whitesmoke;
+	background-color: cadetblue;
+	font-variant-position: super;
+	font-family: 'Courgette', monospace;
+	font-variant-caps: all-small-caps;
+	font-size: 22px;
+}
+
+.info {
+	color: #eeeeee;
+	padding: 5% 0;
+	background: black;
+}
+
+.reservations {
+	background-image: url(' https://images.unsplash.com/photo-1511344465185-e92113a4f96d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=520b6119ba561b2403b044cd5fcb7099&w=1000&q=80');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 7% 0;
+	opacity: 0.8;
+}
+
+.reservations h2 {
+	font-size: 29px;
+	color: black;
+	font-family: 'Oswald', fantasy;
+	text-transform: uppercase;
+}
+
+.menu h2 {
+	font-size: 29px;
+	color: white;
+	font-family: 'Oswald', fantasy;
+	padding-bottom: 2%;
+	text-align: center;
+}
+
+.staff {
+	background: white;
+	opacity: 0.9;
+	padding: 5%;
+}
+
+.staff h2 {
+	font-size: 29px;
+	color: black;
+	font-family: 'Oswald', fantasy;
+	text-transform: uppercase;
+	padding-bottom: 2%;
+}
